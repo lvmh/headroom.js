@@ -335,8 +335,7 @@ Headroom.prototype = {
    * @return {bool} true if out of bounds, false otherwise
    */
   isOutOfBounds : function (currentScrollY) {
-    var pastTop  = currentScrollY < 0,
-
+    var pastTop  = currentScrollY < 0;
     return pastTop;
   },
 
